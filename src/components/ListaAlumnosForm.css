@@ -1,0 +1,56 @@
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Ajustado el margen para una separación más pequeña */
+}
+
+.form-grid {
+  display: flex;
+  gap: 3rem; /* Ajustado para una mejor distribución */
+}
+
+.form-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px; /* Ajustado para menos espacio */
+}
+
+input,
+select {
+  padding: 15px; /* Reducido el padding para mejorar el diseño */
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%; /* Evita que los elementos se expandan demasiado */
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px; /* Ajustado el margen */
+}
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background: #235c4e;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px; /* Añadido margen superior para una separación adecuada */
+  align-self: center;
+}
+
+.success-message {
+  color: green;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}

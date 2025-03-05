@@ -1,0 +1,95 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Contenedor del formulario */
+  .filtros-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    position: relative; /* Para posicionar el botón correctamente */
+  }
+  
+  .filtro {
+    flex: 1;
+    min-width: 100px;
+  }
+  
+  .filtro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .filtro select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Contenedor del botón */
+  .boton-container {
+    width: 100%; /* Ocupa todo el ancho */
+    display: flex;
+    justify-content: flex-start; /* Alinea el botón a la izquierda */
+    margin-top: 20px; /* Espacio entre los filtros y el botón */
+  }
+  
+  /* Botón de búsqueda */
+  .boton-buscar {
+    background-color: #235C4E;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Aumentar el tamaño del botón */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px; /* Aumentar el tamaño de la fuente */
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-buscar:hover {
+    background-color: #235C4E;
+  }
+  
+  /* Resultados */
+  .resultados-container {
+    margin-top: 20px;
+  }
+  
+  .resultados-container h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .resultados-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .resultados-container li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    color: #555;
+  }

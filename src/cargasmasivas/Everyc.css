@@ -1,0 +1,152 @@
+.texto-izquierda {
+  text-align: left;
+}
+
+.filterCard {
+    background-color: #ffffff;
+    padding: rem;
+    border-radius: 8vh;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+  }
+  .filtrosSuperiores {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8vh;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .filtrosSuperiores h2 {
+    margin-top: 0;
+  }
+  
+  .fila {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filtro {
+    flex: 1;
+  }
+  
+  .filtro label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .filtro select, .filtro input {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .fila, .filterCard, .filtro {
+      flex-direction: column;
+    }
+  
+    .filtrosSuperiores {
+      padding: 0.5rem;
+    }
+  
+    .filtro select, .filtro input {
+      font-size: 0.9rem;
+    }
+  }
+  .form {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .formTitle {
+    margin: 0;
+    color: #333;
+    font-size: 1.2rem;
+    text-align: left;
+}
+  
+  
+  .iconoContainer {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .inlineInputs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .inputGroup {
+    flex: 1;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .select {
+    width: 60%;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .exportarContainer {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .exportarButton {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #cccc;
+    color: rgba(51, 48, 48, 0.781);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .registrarButton {
+    padding: 1rem 2rem;
+    background-color: #235C4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .lineaDivisoria {
+    border-top: 1px solid #ddd;
+    margin: 1rem 0;
+  }
+  
+  @media (max-width: 768px) {
+    .inlineInputs, .exportarButton, .exportarContainer, .form, .formTitle, .iconoContainer, .inlineInputs, .inputGroup, .label{
+      flex-direction: column;
+    }
+  
+    .form {
+      padding: 0.5rem;
+    }
+  
+    .select {
+      font-size: 0.9rem;
+    }
+  } 

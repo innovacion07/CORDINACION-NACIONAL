@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Secciones del formulario en línea */
+  .seccion-lineal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.02px; /* Reducimos el espacio entre los campos */
+    margin-bottom: 10px; /* Reducimos el margen inferior */
+  }
+  
+  /* Campos del formulario */
+  .campo {
+    flex: 1;
+    min-width: 100px;
+    margin-bottom: 0; /* Eliminamos el margen inferior */
+  }
+  
+  .campo label {
+    display: block;
+    margin-bottom: 3px; /* Reducimos el margen inferior del label */
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .campo input,
+  .campo select {
+    width: 70%;
+    padding: 6px; /* Reducimos el padding */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Botón de Registrar */
+  .boton-registrar {
+       background-color: #235C4E;
+    ;
+    color: white;
+    border: none;
+    padding: 12px 24px; /* Ajustamos el padding */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 30%;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Ajustamos el margen superior */
+  }
+  
+  .boton-registrar:hover {
+    background-color: #235C4E;
+    ;
+  }
+  @media (max-width: 768px) {
+    .app-container
+    .boton-registrar
+    .boton-registrar:hover
+    .campo
+    .seccion-lineal
+    .app-container
+    .body{      flex-direction: column;
+    }
+  } 
